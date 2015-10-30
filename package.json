@@ -1,14 +1,14 @@
 {
   "name": "whitesand",
   "theme": "syntax",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "description": "A medium constrast theme with a light background.",
     "keywords": [
         "syntax",
         "theme",
         "light"
     ],
-    "repository": "https://github.com/atom/whitesand-atom",
+    "repository": "https://github.com/mswift42/whitesand-atom",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
