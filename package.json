@@ -1,0 +1,16 @@
+{
+  "name": "whitesand-atom",
+  "theme": "syntax",
+    "version": "0.0.1",
+    "description": "A medium constrast theme with a light background.",
+    "keywords": [
+        "syntax",
+        "theme",
+        "light"
+    ],
+    "repository": "https://github.com/atom/whitesand-atom",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    }
+}
