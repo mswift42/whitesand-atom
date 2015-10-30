@@ -134,7 +134,7 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .invalid.illegal {
-    background-color: @string;
+    background-color: @warning2;
     color: @syntax-background-color;
 }
 
@@ -146,7 +146,7 @@ atom-text-editor .search-results .marker.current-result .region,
         color: @builtin;
 
         .source.ruby.embedded {
-            color: @warning;
+            color: @string;
         }
     }
 
@@ -192,7 +192,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .support {
     &.class {
-        color: @warning2;
+        color: @type;
     }
 
     &.function  {
@@ -210,7 +210,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.name.class, &.name.type.class {
-        color: @warning2;
+        color: @keyword;
     }
 
     &.name.section {
@@ -223,7 +223,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.other.attribute-name {
-        color: @warning;
+        color: @keyword;
 
         &.id {
             color: @keyword;
@@ -233,11 +233,11 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .meta {
     &.class {
-        color: @warning2;
+        color: @type;
     }
 
     &.link {
-        color: @warning;
+        color: @type;
     }
 
     &.require {
@@ -260,7 +260,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .markup {
     &.bold {
-        color: @warning;
+        color: @warning2;
         font-weight: bold;
     }
 
