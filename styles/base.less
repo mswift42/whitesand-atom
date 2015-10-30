@@ -78,10 +78,10 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .keyword {
-    color: @type;
+    color: @keyword;
 
     &.control {
-        color: @type;
+        color: @keyword;
     }
 
     &.operator {
@@ -93,7 +93,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.other.unit {
-        color: @warning;
+        color: @keyword;
     }
 }
 
@@ -102,14 +102,14 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .constant {
-    color: @warning;
+    color: @const;
 
     &.character.escape {
         color: @builtin;
     }
 
     &.numeric {
-        color: @warning;
+        color: @const;
     }
 
     &.other.color {
@@ -117,7 +117,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.other.symbol {
-        color: @const;
+        color: darken(@const, 10%);
     }
 }
 
